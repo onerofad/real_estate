@@ -3,7 +3,8 @@ import '../../fonts/BebasNeue-Regular.ttf'
 import HeadingPage from "./HeadingPage"
 import Footer from "./Footer"
 import NavBar from "./NavBar"
-
+//git remote add origin https://github.com/onerofad/real_estate.git
+//git remote add origin https://github.com/onerofad/real_estate.git
 const Home = () => {
 
     return(
