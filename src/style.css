@@ -8,3 +8,10 @@
     height: 75vh;
     padding-top: 5em;
 }
+
+#form_template{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

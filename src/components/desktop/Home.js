@@ -3,16 +3,22 @@ import '../../fonts/BebasNeue-Regular.ttf'
 import HeadingPage from "./HeadingPage"
 import Footer from "./Footer"
 import NavBar from "./NavBar"
-//git remote add origin https://github.com/onerofad/real_estate.git
-//git remote add origin https://github.com/onerofad/real_estate.git
+import Overview from "./Overview"
+import RecentProjects from "./RecentProjects"
+import TeamMembers from "./TeamManagers"
+import GetInTouch from "./GetInTouch"
+
 const Home = () => {
 
     return(
       
-            <Segment vertical size="tiny">
+            <Segment vertical size="tiny" style={{margin: 0, padding: 0}}>
                 <NavBar />
                 <HeadingPage />
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <Overview />
+                <RecentProjects />
+                <TeamMembers />
+                <GetInTouch />
                 <Footer />
             </Segment>
     )
