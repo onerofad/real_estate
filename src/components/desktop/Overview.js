@@ -37,7 +37,8 @@ const Overview = () => {
                             <p style={{
                                 fontFamily: 'Arvo',
                                 fontWeight: 'normal',
-                                fontSize: 14
+                                fontSize: 14,
+                                display: 'block'
                             }}>
                                 mmovables is a national Real 
                                 Estate Agency established in 
@@ -51,7 +52,7 @@ const Overview = () => {
                                 country as well as free access to 
                             </p>
                             <p style={{
-                                    fontFamily: 'Roboto',
+                                    fontFamily: 'Arvo',
                                     fontWeight: 'normal',
                                     fontSize: 14,
                                     display: 'block'

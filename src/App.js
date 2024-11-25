@@ -3,6 +3,9 @@ import { createMedia } from '@artsy/fresnel'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css'
 import Home from './components/desktop/Home';
+import Projects from './components/desktop/Projects';
+import RealEstate from './components/desktop/RealEstate';
+import RealEstateDetail from './components/desktop/RealEstateDetail';
 
 const {MediaContextProvider, Media} = createMedia({
   breakpoints: {
@@ -21,6 +24,9 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Home mobile />} />
+            <Route path='projects' element={<Projects mobile />} />
+            <Route path='realestate' element={<RealEstate mobile />} />
+            <Route path='realestate_details' element={<RealEstateDetail mobile />} />
           </Routes>
         </BrowserRouter>
         
@@ -30,6 +36,9 @@ function App() {
         <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          <Route path='projects' element={<Projects />} />
+          <Route path='realestate' element={<RealEstate />} />
+          <Route path='realestate_details' element={<RealEstateDetail />} />
         </Routes>
         </BrowserRouter>
       </Media>

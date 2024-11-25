@@ -12,7 +12,7 @@ const Home = () => {
 
     return(
       
-            <Segment vertical size="tiny" style={{margin: 0, padding: 0}}>
+            <Segment vertical style={{margin: 0, padding: 0}}>
                 <NavBar />
                 <HeadingPage />
                 <Overview />

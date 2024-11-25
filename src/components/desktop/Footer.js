@@ -136,19 +136,19 @@ const Footer = () => {
                                         color: '#fff'
                                     }}>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             About
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Services
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Real Estate
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Contact
                                         </List.Item>
                                     </List>
