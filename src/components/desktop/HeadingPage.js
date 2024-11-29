@@ -20,7 +20,7 @@ const HeadingPage = () => {
                             fontSize: '30px'
                         }}
                     >
-                        SYCOMORE CONSTRUCT
+                        SYCAMORE CONSTRUCT
                     </Header>
                     <Header 
                         as="h4"

@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 #home_template{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
-    padding-top: 5em;
+    height: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 #project_template{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100%;
     padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #realestate_template{
@@ -23,8 +25,9 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100%;
     padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #form_template{
@@ -32,4 +35,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }

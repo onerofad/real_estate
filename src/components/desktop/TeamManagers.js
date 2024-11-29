@@ -5,7 +5,7 @@ const TeamMembers = () => {
     return(
         <Segment vertical style={{ padding: 50, backgroundColor: '#f6f6f6' }}>
             <Container>
-                <Grid>
+                <Grid stackable>
                     <Grid.Row style={{ padding: 50 }}>
                         <Grid.Column>
                             <Header
@@ -24,10 +24,10 @@ const TeamMembers = () => {
                     </Grid.Row>
                     <Grid.Row textAlign="center">
                             <Grid.Column>
-                                <Grid columns={4}>
+                                <Grid stackable columns={4}>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/team1.jpg"
+                                            src="../images/team/person1.jpg"
                                             circular
                                             size="small"
                                             centered

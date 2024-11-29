@@ -12,7 +12,7 @@ const ProjectPage = () => {
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel1.jpg" 
+                                        src="../images/project/project1.jpg" 
                                         centered
                                         size="large"
                                         bordered

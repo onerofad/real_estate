@@ -1,12 +1,16 @@
 import { Container, Grid, Header, Segment, Form, Input, Icon, Button, List } from "semantic-ui-react"
 import '../../fonts/Arvo-Regular.ttf'
+import {useNavigate} from 'react-router-dom'
 
 const Footer = () => {
+
+    const navigate =  useNavigate()
+
     return(
        
         <Segment vertical style={{backgroundColor: '#000', margin: 0, paddingTop: 50}}>
             <Container>
-            <Grid>
+            <Grid stackable>
                 <Grid.Row>
                     <Grid.Column width={5}>
                         <Grid>
@@ -68,7 +72,7 @@ const Footer = () => {
                        
                     </Grid.Column>
                     <Grid.Column width={7}>
-                        <Grid>
+                        <Grid stackable>
                             <Grid.Row>
                                 <Grid.Column>
                                 <Header 
@@ -113,7 +117,7 @@ const Footer = () => {
 
                     </Grid.Column>
                     <Grid.Column width={4}>
-                        <Grid>
+                        <Grid stackable>
                             <Grid.Row>
                                 <Grid.Column>
                                 <Header 
@@ -135,19 +139,19 @@ const Footer = () => {
                                     <List link inverted relaxed style={{
                                         color: '#fff'
                                     }}>
-                                        <List.Item>
+                                        <List.Item as="a" onClick={() => navigate("/")}>
+                                            <Icon color="green" name="angle right" />
+                                            Home
+                                        </List.Item>
+                                        <List.Item as="a" onClick={() => navigate("about")}>
                                             <Icon color="green" name="angle right" />
                                             About
                                         </List.Item>
-                                        <List.Item>
+                                        <List.Item as="a" onClick={() => navigate("services")}>
                                             <Icon color="green" name="angle right" />
                                             Services
                                         </List.Item>
-                                        <List.Item>
-                                            <Icon color="green" name="angle right" />
-                                            Real Estate
-                                        </List.Item>
-                                        <List.Item>
+                                        <List.Item as="a" onClick={() => navigate("contact")}>
                                             <Icon color="green" name="angle right" />
                                             Contact
                                         </List.Item>

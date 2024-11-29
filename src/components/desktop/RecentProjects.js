@@ -25,17 +25,17 @@ const RecentProjects = () => {
                     {/* Row 1 Begins */}
                     <Grid.Row>
                         <Grid.Column>
-                            <Grid columns={3}>
+                            <Grid stackable columns={3}>
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel1.jpg" 
+                                        src="../images/project/project1.jpg" 
                                         centered
                                         size="large"
                                         bordered
                                     />
                                     <Header 
-                                        content="Project 1" 
+                                        content="ABAT Project." 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -49,7 +49,7 @@ const RecentProjects = () => {
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="Bourdillon, Ikoyi-Lagos."
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -61,7 +61,7 @@ const RecentProjects = () => {
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content="Supervision of ABAT Project, Bourdillon, Ikoyi-Lagos."
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -75,12 +75,13 @@ const RecentProjects = () => {
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel2.jpg" 
+                                        src="../images/project/project15.jpg" 
                                         centered
                                         size="large"
+                                        bordered
                                     />
                                      <Header 
-                                        content="Project 2" 
+                                        content="Underground sewage tank" 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -94,7 +95,7 @@ const RecentProjects = () => {
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="Lekki Lagos"
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -106,7 +107,8 @@ const RecentProjects = () => {
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content="Cast pile cap and underground sewage tank ready to be sunk. 1 bedroom studio 
+apartment at Lekki"
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -120,12 +122,13 @@ const RecentProjects = () => {
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel3.jpg" 
+                                        src="../images/project/project2.jpg" 
                                         centered
                                         size="large"
+                                        bordered
                                     />
                                      <Header 
-                                        content="Project 3" 
+                                        content="12-storey Vita Tower" 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -139,7 +142,7 @@ const RecentProjects = () => {
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="Kofo-Abayomi Street, V.I-Lagos"
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -151,7 +154,7 @@ const RecentProjects = () => {
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content=" Supervision of 12-storey Vita Towers at Kofo-Abayomi Street, V.I-Lagos. Contractor – DTV"
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -171,17 +174,17 @@ const RecentProjects = () => {
                     {/* Row 2 Begins */}
                     <Grid.Row>
                         <Grid.Column>
-                            <Grid columns={3}>
+                            <Grid stackable columns={3}>
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel1.jpg" 
+                                        src="../images/project/project18.jpg" 
                                         centered
                                         size="large"
                                         bordered
                                     />
                                     <Header 
-                                        content="Project 4" 
+                                        content="Medina Estate" 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -195,7 +198,7 @@ const RecentProjects = () => {
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="Gbagada Lagos"
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -207,7 +210,7 @@ const RecentProjects = () => {
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content="Development standing of 82 nos pile foundation at Medina Estate, Gbagada-Lagos"
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -221,7 +224,7 @@ const RecentProjects = () => {
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel2.jpg" 
+                                        src="../images/project/project9.jpg" 
                                         centered
                                         size="large"
                                     />
@@ -266,7 +269,7 @@ const RecentProjects = () => {
                                 <Grid.Column>
                                     <Image 
                                         fluid
-                                        src="../images/carousel/carousel3.jpg" 
+                                        src="../images/project/project11.jpg" 
                                         centered
                                         size="large"
                                     />

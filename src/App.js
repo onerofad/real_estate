@@ -20,13 +20,13 @@ function App() {
   return (
 
     <MediaContextProvider>
-      <Media at='monbile'>
+      <Media at='mobile'>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home mobile />} />
-            <Route path='projects' element={<Projects mobile />} />
-            <Route path='realestate' element={<RealEstate mobile />} />
-            <Route path='realestate_details' element={<RealEstateDetail mobile />} />
+            <Route index element={<Home  />} />
+            <Route path='projects' element={<Projects  />} />
+            <Route path='realestate' element={<RealEstate  />} />
+            <Route path='realestate_details' element={<RealEstateDetail />} />
           </Routes>
         </BrowserRouter>
         
@@ -35,7 +35,7 @@ function App() {
       <Media greaterThan="mobile">
         <BrowserRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<Home mobile />} />
           <Route path='projects' element={<Projects />} />
           <Route path='realestate' element={<RealEstate />} />
           <Route path='realestate_details' element={<RealEstateDetail />} />

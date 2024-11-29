@@ -1,9 +1,8 @@
-import { Container, Menu, Image, Header } from "semantic-ui-react"
+import { Container, Menu, Image, Header, Sidebar } from "semantic-ui-react"
 import '../../fonts/BebasNeue-Regular.ttf'
 import { useNavigate } from "react-router-dom"
-import { useState } from "react"
 
-const NavBar = () => {
+const NavBar = ({mobile}) => {
 
     const navigate = useNavigate()
 
@@ -36,7 +35,7 @@ const NavBar = () => {
             }}
             color="green"
         >
-            SYCOMORE CONSTRUCT
+            SYCAMORE CONSTRUCT
         </Header>      
             <Menu.Item 
                 onClick={() => navigate("/")} 
