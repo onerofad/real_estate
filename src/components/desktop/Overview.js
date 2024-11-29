@@ -4,7 +4,6 @@ import { Container, Grid, Header, Segment, Embed } from "semantic-ui-react"
 const Overview = () => {
     return(
         <Segment vertical style={{backgroundColor: '#f6f6f6', padding: 50}}>
-            <Container>
                 <Grid stackable>
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column>
@@ -58,7 +57,6 @@ const Overview = () => {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-            </Container>
         </Segment>
     )
 }

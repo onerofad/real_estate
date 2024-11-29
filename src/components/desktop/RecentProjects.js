@@ -3,7 +3,6 @@ import { Container, Grid, Header, Segment, Image, Button } from "semantic-ui-rea
 const RecentProjects = () => {
     return(
         <Segment vertical style={{padding: 50}}>
-            <Container>
                 <Grid>
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column>
@@ -334,8 +333,6 @@ apartment at Lekki"
                     </Grid.Row>
 
                 </Grid>
-
-            </Container>
         </Segment>
 
     )

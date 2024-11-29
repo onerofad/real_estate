@@ -4,7 +4,6 @@ const TeamMembers = () => {
 
     return(
         <Segment vertical style={{ padding: 50, backgroundColor: '#f6f6f6' }}>
-            <Container>
                 <Grid stackable>
                     <Grid.Row style={{ padding: 50 }}>
                         <Grid.Column>
@@ -293,8 +292,6 @@ const TeamMembers = () => {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-
-            </Container>
         </Segment>
     )
 }
