@@ -23,88 +23,94 @@ const GetInTouch = () => {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column style={{ maxWidth: 600 }}>
-                            <Form size="large">
-                                <Form.Group>
-                                    <Form.Input
-                                        transparent
-                                        placeholder="First Name"
-                                        width={8}
-                                        style={{
-                                            borderColor: '#fff',
-                                            borderWidth: 1,
-                                            borderStyle: 'solid',
-                                            width: '100%',
-                                            height: '40px',
-                                            borderRadius: 5
-
-                                        }}
-                                    />
-                                    <Form.Input
-                                        transparent
-                                        placeholder="Last Name"
-                                        width={8}
-                                            style={{
-                                            borderColor: '#fff',
-                                            borderWidth: 1,
-                                            borderStyle: 'solid',
-                                            width: '100%',
-                                            height: '40px',
-                                            borderRadius: 5
-
-                                        }}
-                                    />
-                                </Form.Group>
-                                <Form.Group>
-                                    <Form.Input
-                                        transparent
-                                        placeholder="Phone"
-                                        width={8}
-                                            style={{
-                                            borderColor: '#fff',
-                                            borderWidth: 1,
-                                            borderStyle: 'solid',
-                                            width: '100%',
-                                            height: '40px',
-                                            borderRadius: 5
-
-                                        }}
-                                    />
-                                    <Form.Input
-                                        transparent
-                                        placeholder="Email"
-                                        width={8}
-                                            style={{
-                                            borderColor: '#fff',
-                                            borderWidth: 1,
-                                            borderStyle: 'solid',
-                                            width: '100%',
-                                            height: '40px',
-                                            borderRadius: 5
-
-                                        }}
-                                    />
-                                </Form.Group>
-                                <Form.Group>
-                                    <Form.Input
-                                        transparent
-                                        placeholder="message"
-                                        width={16}
-                                            style={{
-                                            borderColor: '#fff',
-                                            borderWidth: 1,
-                                            borderStyle: 'solid',
-                                            width: '100%',
-                                            height: '100px',
-                                            borderRadius: 5
-
-                                        }}
-                                    />        
-                                </Form.Group>     
+                        <Grid.Column style={{maxWidth: 600}}>
+                            <Form>
+                                <Grid stackable textAlign="center" columns={2}>
+                                    <Grid.Row>
+                                        <Grid.Column>
+                                            <Form.Field>
+                                                <Form.Input 
+                                                    transparent
+                                                    placeholder="First Name"
+                                                    style={{
+                                                            borderWidth: '1px', 
+                                                            borderStyle: 'solid',
+                                                            borderColor: '#fff',
+                                                            height: '38px'
+                                                    }}
+                                                />
+                                            </Form.Field>
+                                        </Grid.Column>
+                                        <Grid.Column>
+                                            <Form.Field>
+                                                <Form.Input
+                                                     transparent
+                                                     placeholder="Last Name"
+                                                     style={{
+                                                             borderWidth: '1px', 
+                                                             borderStyle: 'solid',
+                                                             borderColor: '#fff',
+                                                             height: '38px'
+                                                     }}
+                                                />
+                                            </Form.Field>
+                                        </Grid.Column>
+                                            
+                                    </Grid.Row>
+                                    <Grid.Row>
+                                        <Grid.Column>
+                                            <Form.Field>
+                                                <Form.Input 
+                                                     transparent
+                                                     placeholder="Phone"
+                                                     style={{
+                                                             borderWidth: '1px', 
+                                                             borderStyle: 'solid',
+                                                             borderColor: '#fff',
+                                                             height: '38px'
+                                                     }}
+                                                />
+                                            </Form.Field>
+                                        </Grid.Column>
+                                        <Grid.Column>
+                                            <Form.Field>
+                                                <Form.Input
+                                                    transparent
+                                                    placeholder="Email"
+                                                    style={{
+                                                            borderWidth: '1px', 
+                                                            borderStyle: 'solid',
+                                                            borderColor: '#fff',
+                                                            height: '38px'
+                                                    }}
+                                                />
+                                            </Form.Field>
+                                        </Grid.Column>
+                                            
+                                    </Grid.Row>
+                                </Grid> 
+                                <Grid stackable textAlign="center" columns={1}>
+                                    <Grid.Row>
+                                        <Grid.Column>
+                                            <Form.Field>
+                                                <Form.Input
+                                                     transparent
+                                                     placeholder="Message"
+                                                     style={{
+                                                             borderWidth: '1px', 
+                                                             borderStyle: 'solid',
+                                                             borderColor: '#fff',
+                                                             height: '60px'
+                                                     }}
+                                                />
+                                            </Form.Field>
+                                        </Grid.Column>
+                                    </Grid.Row>
+                                </Grid> 
                             </Form>
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row style={{ padding: 50 }}>
+                    <Grid.Row style={{ paddingTop: 50 }}>
                         <Grid.Column>
                             <Button 
                                 size="large" 
