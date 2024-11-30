@@ -1,6 +1,9 @@
 import { Container, Grid, Header, Segment, Image, Button } from "semantic-ui-react"
+import { useNavigate } from "react-router-dom"
 
 const RecentProjects = () => {
+
+    const navigate = useNavigate()
     return(
         <Segment vertical style={{padding: 50}}>
                 <Grid>
@@ -26,13 +29,15 @@ const RecentProjects = () => {
                         <Grid.Column>
                             <Grid stackable columns={3}>
                                 <Grid.Column>
-                                    <Image 
-                                        fluid
-                                        src="../images/project/project1.jpg" 
-                                        centered
-                                        size="large"
-                                        bordered
-                                    />
+                                    <div>
+                                        <Image 
+                                            fluid
+                                            src="../images/project/project1.jpg" 
+                                            centered
+                                            size="large"
+                                            bordered
+                                        />
+                                    </div>
                                     <Header 
                                         content="ABAT Project." 
                                         as="h4"
@@ -228,7 +233,7 @@ apartment at Lekki"
                                         size="large"
                                     />
                                      <Header 
-                                        content="Project 5" 
+                                        content="Underground diesel tank" 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -242,7 +247,7 @@ apartment at Lekki"
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="Landmark Towers"
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -254,7 +259,7 @@ apartment at Lekki"
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content="Reinforced concrete underground diesel tank for Landmark Towers"
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -273,7 +278,7 @@ apartment at Lekki"
                                         size="large"
                                     />
                                      <Header 
-                                        content="Project 6" 
+                                        content=" Road and site development" 
                                         as="h4"
                                         color="green"
                                         style={{
@@ -287,7 +292,7 @@ apartment at Lekki"
                                     />
                                     <Header
                                         as="h5"
-                                        content="Ibeju Lekki"
+                                        content="UPDC Pinnock Estate, Lekki"
                                         style={{
                                             fontFamily: 'Arvo',
                                             fontSize: 18,
@@ -299,7 +304,7 @@ apartment at Lekki"
                                     />
                                     <Header 
                                         as="h6"
-                                        content="AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community."
+                                        content=" Road and site development for UPDC Pinnock Estate, Lekki"
                                         style={{
                                             fontFamily: 'Roboto',
                                             fontSize: 14,
@@ -321,6 +326,7 @@ apartment at Lekki"
                             <Button 
                                 color="green"
                                 size="large"
+                                onClick={() => navigate("projects")}
                                 style={{
                                     fontFamily: 'Arvo',
                                     fontSize: 16,

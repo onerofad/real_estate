@@ -33,7 +33,7 @@ const TeamMembers = () => {
                                             
                                         />
                                         <Header
-                                            content="John Doe"
+                                            content="Engr. Awonuga oluwadamilare"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -88,14 +88,14 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/team2.jpg"
+                                            src="../images/team/person1.jpg"
                                             circular
                                             size="small"
                                             centered
                                             
                                         />
                                                <Header
-                                            content="John Doe"
+                                            content="Engr. Awonuga oluwadamilare"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -150,14 +150,14 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/team3.jpg"
+                                            src="../images/team/person1.jpg"
                                             circular
                                             size="small"
                                             centered
                                             
                                         />
                                                <Header
-                                            content="John Doe"
+                                            content="Engr. Awonuga oluwadamilare"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -212,14 +212,14 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/team4.jpg"
+                                            src="../images/team/person1.jpg"
                                             circular
                                             size="small"  
                                             centered                                          
                                             
                                         />
                                                <Header
-                                            content="John Doe"
+                                            content="Engr. Awonuga oluwadamilare"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',

@@ -39,3 +39,29 @@
     padding-top: 5em;
     padding-bottom: 5em;
 }
+
+.crd {
+
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .crd-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+  }
+/*user name= E1152913, password = 179784 */
+  .crd--effect-1 .crd-img {
+    transform: scale(.9);
+    transition: .4s;
+  }
+  
+  .crd--effect-1:hover .crd-img {
+    transform: scale(1);
+  }
