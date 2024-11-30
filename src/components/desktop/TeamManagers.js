@@ -3,9 +3,10 @@ import { Container, Grid, Header, Segment,Image, Icon, Button } from "semantic-u
 const TeamMembers = () => {
 
     return(
-        <Segment vertical style={{ padding: 50, backgroundColor: '#f6f6f6' }}>
+        <Segment vertical style={{ padding: 40, backgroundColor: '#f6f6f6' }}>
+                <Container>
                 <Grid stackable>
-                    <Grid.Row style={{ padding: 50 }}>
+                    <Grid.Row style={{ padding: 40 }}>
                         <Grid.Column>
                             <Header
                                 as="h4"
@@ -292,6 +293,7 @@ const TeamMembers = () => {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+                </Container>
         </Segment>
     )
 }

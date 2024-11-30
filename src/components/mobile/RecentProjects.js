@@ -5,10 +5,9 @@ const RecentProjects = () => {
 
     const navigate = useNavigate()
     return(
-        <Segment vertical style={{padding: 50}}>
-            <Container>
+        <Segment vertical style={{padding: 20}}>
                 <Grid>
-                    <Grid.Row style={{padding: 50}}>
+                    <Grid.Row style={{padding: 20}}>
                         <Grid.Column>
                             <Header
                                 as="h4"
@@ -340,7 +339,6 @@ apartment at Lekki"
                     </Grid.Row>
 
                 </Grid>
-                </Container>
         </Segment>
 
     )
