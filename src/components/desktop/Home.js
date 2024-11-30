@@ -7,20 +7,30 @@ import Overview from "./Overview"
 import RecentProjects from "./RecentProjects"
 import TeamMembers from "./TeamManagers"
 import GetInTouch from "./GetInTouch"
+import NavbarMobile from "../mobile/NavbarMobile"
 
-const Home = () => {
+const Home = ({mobile}) => {
 
-    return(
-      
-            <Segment vertical style={{margin: 0, padding: 0}}>
-                <NavBar />
-                <HeadingPage />
-                <Overview />
-                <RecentProjects />
-                <TeamMembers />
-                <GetInTouch />
-                <Footer />
-            </Segment>
-    )
+        if(mobile){
+            return(
+                <Segment vertical style={{margin: 0, padding: 0}}>
+                    <NavbarMobile />
+                </Segment>
+            )
+
+        }else{
+            return(
+                <Segment vertical style={{margin: 0, padding: 0}}>
+                    <NavBar />
+                    <HeadingPage />
+                    <Overview />
+                    <RecentProjects />
+                    <TeamMembers />
+                    <GetInTouch />
+                    <Footer />
+                </Segment>
+            )
+        }
+    
 }
 export default Home

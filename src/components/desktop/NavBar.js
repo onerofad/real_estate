@@ -2,7 +2,7 @@ import { Container, Menu, Image, Header, Sidebar } from "semantic-ui-react"
 import '../../fonts/BebasNeue-Regular.ttf'
 import { useNavigate } from "react-router-dom"
 
-const NavBar = ({mobile}) => {
+const NavBar = ({}) => {
 
     const navigate = useNavigate()
 

@@ -24,7 +24,7 @@ const GetInTouch = () => {
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column style={{maxWidth: 600}}>
-                            <Form>
+                            <Form size="large">
                                 <Grid stackable textAlign="center" columns={2}>
                                     <Grid.Row>
                                         <Grid.Column>
@@ -36,7 +36,8 @@ const GetInTouch = () => {
                                                             borderWidth: '1px', 
                                                             borderStyle: 'solid',
                                                             borderColor: '#fff',
-                                                            height: '38px'
+                                                            height: '38px',
+                                                            color: '#fff'
                                                     }}
                                                 />
                                             </Form.Field>
@@ -50,7 +51,8 @@ const GetInTouch = () => {
                                                              borderWidth: '1px', 
                                                              borderStyle: 'solid',
                                                              borderColor: '#fff',
-                                                             height: '38px'
+                                                             height: '38px',
+                                                             color: '#fff'
                                                      }}
                                                 />
                                             </Form.Field>
@@ -67,7 +69,8 @@ const GetInTouch = () => {
                                                              borderWidth: '1px', 
                                                              borderStyle: 'solid',
                                                              borderColor: '#fff',
-                                                             height: '38px'
+                                                             height: '38px',
+                                                             color: '#fff'
                                                      }}
                                                 />
                                             </Form.Field>
@@ -77,11 +80,13 @@ const GetInTouch = () => {
                                                 <Form.Input
                                                     transparent
                                                     placeholder="Email"
+                                                    inverted
                                                     style={{
                                                             borderWidth: '1px', 
                                                             borderStyle: 'solid',
                                                             borderColor: '#fff',
-                                                            height: '38px'
+                                                            height: '38px',
+                                                            color: '#fff'
                                                     }}
                                                 />
                                             </Form.Field>
@@ -96,11 +101,13 @@ const GetInTouch = () => {
                                                 <Form.Input
                                                      transparent
                                                      placeholder="Message"
+                                                     
                                                      style={{
                                                              borderWidth: '1px', 
                                                              borderStyle: 'solid',
                                                              borderColor: '#fff',
-                                                             height: '60px'
+                                                             height: '76px',
+                                                             color: '#fff'
                                                      }}
                                                 />
                                             </Form.Field>
