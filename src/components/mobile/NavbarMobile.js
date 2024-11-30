@@ -25,16 +25,22 @@ const NavbarMobile = () => {
             >
               
                 <Menu.Item as='a' active>
-                        <Link style={{color: '#FFF'}} to='/'>Home</Link>
+                    Home
                 </Menu.Item>
                 <Menu.Item as='a' pointing>
-                        <Link style={{color: '#FFF'}} to='/'>Jobs</Link>
+                    About
                 </Menu.Item>
                 <Menu.Item as='a'>
-                        <Link style={{color: '#FFF'}} to='/'>Careers</Link>
+                    Projects
                 </Menu.Item>
                 <Menu.Item as='a'>
-                        <Link style={{color: '#FFF'}} to='/'>Post Jobs</Link>
+                    Services
+                </Menu.Item>
+                <Menu.Item as='a'>
+                    Real Estate
+                </Menu.Item>
+                <Menu.Item as='a'>
+                    Contact
                 </Menu.Item>
            
 

@@ -6,7 +6,7 @@ import '../../fonts/Roboto-Regular.ttf'
 
 const HeadingPage = () => {
     return(
-        <Segment id="home_template" vertical>
+        <Segment id="home_template" vertical style={{marginTop: 0}}>
             <Grid stackable verticalAlign="middle">
                 <Grid.Row>
                     <Grid.Column>

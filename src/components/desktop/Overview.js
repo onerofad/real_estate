@@ -3,7 +3,7 @@ import { Container, Grid, Header, Segment, Embed } from "semantic-ui-react"
 
 const Overview = () => {
     return(
-        <Segment vertical style={{backgroundColor: '#f6f6f6', paddingTop: 50}}>
+        <Segment vertical style={{backgroundColor: '#f6f6f6', paddingTop: 50, marginTop: 0}}>
                 <Container>
                 <Grid stackable>
                     <Grid.Row style={{paddingTop: 50}}>
