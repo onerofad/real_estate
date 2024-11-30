@@ -3,10 +3,10 @@ import { Container, Grid, Segment, Header, Form, Button } from "semantic-ui-reac
 const GetInTouch = () => {
 
     return(
-        <Segment vertical style={{padding: 50}} id="form_template">
+        <Segment vertical style={{paddingTop: 50}} id="form_template">
             <Container>
-                <Grid textAlign="center">
-                    <Grid.Row style={{padding: 50}}>
+                <Grid stackable textAlign="center">
+                    <Grid.Row style={{paddingTop: 50}}>
                         <Grid.Column>
                             <Header
                                 as="h4"
